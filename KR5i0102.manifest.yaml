@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR5i0102/v1
+canonical_location: https://kanripo.org/bkk/KR5i0102/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 華蓋山三仙真經
+  identifiers:
+    alt_id:
+    - JY297
+  date: '2015-08-29 17:59:15.715118'
+  source:
+    repository: kanripo
+    path: KR5i0102
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  base_edition: CK-KZ
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: CK-KZ
+  label: 【重刊道藏輯要】
+- short: CK-KZ-jye
+- short: YP-C
+  label: 【原版道藏輯要】
+- short: KR5i0102
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0102_001.yaml, hash: 'sha256:09ea44a5ebad92a9a8bf16db3d84cbfe793cc4c872bbe20f697d90cabbe0032e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0102_001.markers.yaml, hash: 'sha256:347e6c1d955a77801f16aee18d6aae3fdec163ab1c8f04ef65970ed816b955e7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0102_01p001a
+    span:
+    - body
+    - 0
+    - 8328
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:40150b8b168267174a04cb7ea9dd596cf165a2577006a809f6753cbe504f9c93
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

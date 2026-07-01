@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0102/YP-C/v1
+canonical_location: https://kanripo.org/bkk/KR5i0102/YP-C/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 華蓋山三仙真經
+  date: '2015-08-29 17:59:15.715118'
+  source:
+    repository: kanripo
+    path: KR5i0102
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: YP-C
+    label: 【原版道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0102_001-YP-C.yaml, hash: 'sha256:442eeb01ef68bfde7c2c22c7da84ae208321e89d3da5c5cbbde177fe3262e916'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0102_001-YP-C.markers.yaml, hash: 'sha256:a3369f2fb198556c1d4a6ef046290a599ed14d6b490a704ae1914d1794b340b2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: YP-C_KR5i0102_27yiji-06-0025b
+    span:
+    - body
+    - 0
+    - 8326
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:8ed595e989e88b0060c494dccd93eb785b942283439f5dc5db333c2bf3cb44ff
